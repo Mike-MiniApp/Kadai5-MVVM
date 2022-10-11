@@ -10,8 +10,10 @@ import XCTest
 
 final class Kadai5_MVVMTests: XCTestCase {
 
+    let calculator = Calculator()
+
     func test_calc() {
-        
+        XCTAssertEqual(calculator.divi(number1: 1, number2: 1), 1)
     }
 
     override func setUpWithError() throws {

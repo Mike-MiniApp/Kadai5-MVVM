@@ -8,5 +8,7 @@
 import Foundation
 
 class Calculator {
-    
+    func divi(number1: Int, number2: Int) -> Double {
+         Double(number1 / number2)
+    }
 }
