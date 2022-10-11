@@ -1,0 +1,6 @@
+framework module Pods_Kadai5_MVVM {
+  umbrella header "Pods-Kadai5-MVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}
